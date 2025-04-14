@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>أسعار العملات الرقمية</title>
+</head>
+<body>
+  <div class="container">
+    <h1>مرحبًا بكم في CoinPeek: دليلك السريع لأسعار العملات الرقمية</h1>
+
+    <form id="currencyForm">
+      <label for="coin">اختر العملة:</label>
+      <select id="coin" required>
+        <option value="">-- اختر --</option>
+        <option value="bitcoin">Bitcoin</option>
+        <option value="ethereum">Ethereum</option>
+        <option value="dogecoin">Dogecoin</option>
+        <option value="solana">Solana</option>
+        <option value="ripple">Ripple</option>
+      </select>
+
+      <button type="submit">عرض البيانات</button>
+    </form>
+
+    <div id="result"></div>
+
+    <button id="clearBtn">مسح البيانات</button>
+  </div>
+</body>
+</html>
