@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>أسعار العملات الرقمية</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <h1>مرحبًا بكم في CoinPeek: دليلك السريع لأسعار العملات الرقمية</h1>
 
     <form id="currencyForm">
-      <label for="coin">اختر العملة:</label>
       <select id="coin" required>
         <option value="">-- اختر --</option>
         <option value="bitcoin">Bitcoin</option>
@@ -18,7 +18,7 @@
         <option value="solana">Solana</option>
         <option value="ripple">Ripple</option>
       </select>
-
+      <label for="coin">اختر العملة:</label>
       <button type="submit">عرض البيانات</button>
     </form>
 
