@@ -1,6 +1,6 @@
 body {
     background-color: #f4f0fa;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     color: #3e2c4d;
     margin: 0;
     padding: 0;
@@ -60,7 +60,8 @@ button:hover {
     background-color: #f2e8fd;
     padding: 15px;
     border-radius: 10px;
-    text-align: left;
+    text-align: right;
+     direction: rtl;
 }
   
 #clear-btn {
